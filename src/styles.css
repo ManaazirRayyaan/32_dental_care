@@ -4,7 +4,6 @@
 
 @layer base {
   html {
-    scroll-behavior: smooth;
     scroll-padding-top: 88px;
   }
 
@@ -25,62 +24,16 @@
     @apply py-20 sm:py-24;
   }
 
-  .nav-link {
-    @apply text-sm font-bold text-slate-600 transition hover:text-clinic-teal;
+  .form-label {
+    @apply text-sm font-extrabold text-slate-800;
   }
 
-  .primary-button,
-  .secondary-button,
-  .whatsapp-button,
-  .light-button,
-  .teal-button {
-    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-lg px-5 py-3 text-sm font-extrabold transition duration-200;
+  .form-input {
+    @apply w-full rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-blue-400 focus:ring-4 focus:ring-blue-100;
   }
 
-  .primary-button {
-    @apply bg-clinic-teal text-white shadow-lg shadow-teal-600/20 hover:-translate-y-0.5 hover:bg-teal-600;
-  }
-
-  .secondary-button {
-    @apply border border-sky-100 bg-white text-clinic-navy hover:border-teal-200 hover:text-clinic-teal;
-  }
-
-  .whatsapp-button {
-    @apply border border-teal-200 bg-white text-clinic-teal shadow-sm hover:-translate-y-0.5 hover:bg-clinic-mint;
-  }
-
-  .light-button {
-    @apply bg-white text-clinic-navy hover:-translate-y-0.5 hover:bg-sky-50;
-  }
-
-  .teal-button {
-    @apply bg-clinic-teal text-white hover:-translate-y-0.5 hover:bg-teal-500;
-  }
-
-  .icon-button {
-    @apply grid h-11 w-11 place-items-center rounded-lg border border-sky-100 bg-white text-clinic-navy transition hover:border-teal-200 hover:text-clinic-teal;
-  }
-
-  .feature-tile {
-    @apply rounded-lg border border-sky-100 bg-sky-50/70 p-5 shadow-sm transition hover:-translate-y-1 hover:bg-white hover:shadow-soft;
-  }
-
-  .service-card,
-  .reason-card,
-  .testimonial-card {
-    @apply rounded-xl border border-sky-100 bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-soft;
-  }
-
-  .reason-card {
-    @apply bg-white;
-  }
-
-  .testimonial-card {
-    @apply border-white;
-  }
-
-  .contact-row {
-    @apply flex gap-4 rounded-lg border border-sky-100 bg-white/70 p-4 text-sm font-semibold leading-6 text-slate-700 transition;
+  .primary-submit {
+    @apply inline-flex min-h-12 items-center justify-center rounded-lg bg-[#2D9CDB] px-5 py-3 text-sm font-extrabold text-white shadow-lg shadow-blue-500/20 transition hover:-translate-y-0.5 hover:bg-blue-600;
   }
 }
 
