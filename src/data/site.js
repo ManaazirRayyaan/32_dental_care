@@ -15,11 +15,11 @@ import {
 export const clinic = {
   name: "32 Dental Clinic & Aesthetic Centre",
   shortName: "32 Dental Clinic",
-  doctor: "Dr. Sowmya",
-  phone: "+91 98765 43210",
-  tel: "tel:+919876543210",
+  doctor: "Dr. XXX",
+  phone: "+91 XXX",
+  tel: "tel:+91XXXXX",
   whatsapp:
-    "https://wa.me/919876543210?text=Hello%2032%20Dental%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment.",
+    "https://wa.me/91XXXXX?text=Hello%2032%20Dental%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment.",
   address: "1st Floor, beside Indian Bank, opp. District Education Office, Hosur",
 };
 
